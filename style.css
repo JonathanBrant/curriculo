@@ -1,0 +1,41 @@
+body {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 100px 20px 100px;
+}
+
+.contact a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.contact p {
+  line-height: 18px;
+}
+
+img {
+  width: 156px;
+  border-radius: 50%;
+}
+
+p {
+  line-height: 25px;
+  text-align: justify;
+}
+
+ul li {
+  line-height: 25px;
+  margin-left:-24px;
+}
